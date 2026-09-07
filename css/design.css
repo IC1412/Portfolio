@@ -37,6 +37,7 @@ nav a:hover {
 }
 
 /* Hero Section Styles */
+
 .hero {
     text-align: center;
     padding: 4rem 2rem;
@@ -77,4 +78,30 @@ nav a:hover {
 .hero-button:hover {
     background-color: #1e90ff;
     color: #05070d;
+}
+
+/* about.html Styles */
+
+.about-section {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.profile-image {
+    width: 210px;
+    height: 210px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.about-section h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
