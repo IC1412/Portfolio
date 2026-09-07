@@ -170,3 +170,9 @@ nav a:hover {
     padding: 1rem 2rem;
 }
 
+/* Responsive Styles */
+nav a.active {
+    color: #fec107;
+    border-bottom: 2px solid #fec107;
+    padding-bottom: 0.3rem;
+}
