@@ -96,12 +96,50 @@ nav a:hover {
 }
 
 .about-section h1 {
-    color: #ffffff;
+    color: #1e90ff;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .about-section p {
     font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* skills-projects.html Styles */
+
+.skills-projects-section {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.skills-projects-section h1 {
+    color: #1e90ff;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+
+.skills-projects-section h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-projects-section h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-projects-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.skills-projects-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
     margin-bottom: 2rem;
 }
