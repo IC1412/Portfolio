@@ -1,4 +1,80 @@
+/* Background and text color */
 body {
     background-color: black;
+    background-image: url("../images/background_space.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
+    line-height: 1.5;
+    min-height: 90vh;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #0b0f1a;
+    border-bottom: 1px solid #1e90ff;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1e90ff;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero-subtitle {
+    color: #1e90ff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    border: 1px solid #1e90ff;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #1e90ff;
+    color: #05070d;
 }
